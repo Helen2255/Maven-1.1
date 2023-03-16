@@ -6,7 +6,7 @@ public class Main {
         System.out.println("1." + expected + "==?==" + actual);
 
         expected = 30;
-        actual = service.calcBonus(1000, true);
+        actual = service.calcBonus(1_000, true);
         System.out.println("2." + expected + "==?==" + actual);
 
         long expectedRegistered = 500;
